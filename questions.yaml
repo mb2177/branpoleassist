@@ -1,0 +1,63 @@
+# Только поток для E‑commerce
+ecommerce:
+  title: "E‑commerce"
+  questions:
+    - id: company_name
+      text: "Название бренда/магазина?"
+    - id: region
+      text: "На какие регионы стартуем?"
+      options: ["UAE", "EU", "UA", "KSA", "Global"]
+      multi: true
+    - id: platform
+      text: "Платформа?"
+      options: ["Shopify", "Shopware", "WooCommerce", "Не знаю — порекомендуйте"]
+    - id: catalog_size
+      text: "Сколько товаров на старте?"
+      options: ["1–10", "10–100", "100–1000", "1000+"]
+    - id: categories
+      text: "Категории/коллекции (коротко опишите)"
+    - id: attributes
+      text: "Какие атрибуты и фильтры нужны?"
+      options: ["Размер", "Цвет", "Материал", "Коллекция", "Пол", "Сезон", "SKU", "Другие"]
+      multi: true
+    - id: payments
+      text: "Платёжные системы"
+      options: ["Stripe", "PayPal", "Checkout.com", "MyFatoorah", "LiqPay", "COD (наложка)"]
+      multi: true
+    - id: currencies
+      text: "Валюты и мультивалютность"
+      options: ["AED", "EUR", "USD", "UAH", "SAR", "Мультивалютность"]
+      multi: true
+    - id: shipping
+      text: "Логистика/склады"
+      options: ["UAE fulfillment", "EU fulfillment", "Ukraine fulfillment", "Dropshipping", "Own warehouse"]
+      multi: true
+    - id: shipping_rules
+      text: "Правила доставки (страны, сроки, стоимость, free shipping порог)"
+    - id: taxes
+      text: "Налоги (VAT, НДС, пошлины) — что учитывать?"
+    - id: languages
+      text: "Языки магазина"
+      options: ["Русский", "Английский", "Немецкий", "Украинский", "Арабский"]
+      multi: true
+    - id: legal
+      text: "Юридические страницы"
+      options: ["Политика возвратов", "Доставка и оплата", "Terms/Условия", "Privacy/Политика конфиденциальности"]
+      multi: true
+    - id: marketing
+      text: "Интеграции маркетинга"
+      options: ["Meta Pixel", "GA4", "TikTok Pixel", "Email (Klaviyo/Mailchimp)", "CRM (Zoho/HubSpot)"]
+      multi: true
+    - id: brand_assets
+      text: "Есть ли брендбук/логотип/референсы? Пришлите ссылки."
+    - id: content
+      text: "Контент: фото/видео/тексты готовы? Нужен копирайт/съёмка?"
+    - id: discount_logic
+      text: "Скидки, промокоды, распродажи — как планируете?"
+    - id: return_policy
+      text: "Политика возвратов и гарантий (сроки, условия)"
+    - id: deadline
+      text: "Дедлайн и дата запуска?"
+    - id: budget_range
+      text: "Бюджет?"
+      options: ["до $5k", "$5k–$15k", "$15k–$40k", "$40k+"]
